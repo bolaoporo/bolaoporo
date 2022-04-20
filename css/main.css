@@ -1,0 +1,11 @@
+.bg-dark-gray{
+    background-color: #343a40;
+}
+
+.text-secondary a{
+    color: #c0c0c0;
+}
+
+.text-decoration-none a{
+    text-decoration: none;
+}
