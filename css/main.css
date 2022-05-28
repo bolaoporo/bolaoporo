@@ -1,10 +1,24 @@
 #main-carousel {
-  background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.1)), url("https://static.vecteezy.com/system/resources/previews/002/623/583/original/abstract-black-geometric-shape-background-with-diagonal-line-texture-design-for-presentation-banner-cover-web-flyer-card-poster-game-texture-slide-and-powerpoint-illustration-vector.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("https://static.vecteezy.com/system/resources/previews/002/623/583/original/abstract-black-geometric-shape-background-with-diagonal-line-texture-design-for-presentation-banner-cover-web-flyer-card-poster-game-texture-slide-and-powerpoint-illustration-vector.jpg");
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+  width: 36px;
+  border-radius: 30%;
+}
+
+.content {
+  color: #c0c0c0;
   text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
 }
 
 .bg-dark-gray {
-  background-color: #343a40;
+  background-color: #484c4f;
 }
 
 .text-secondary a {
@@ -13,4 +27,31 @@
 
 .text-decoration-none a {
   text-decoration: none;
+}
+
+.between-line div:first-child {
+  border-right: 3px solid #ccc;
+}
+.line {
+  position: relative;
+}
+/*Text*/
+.main-title {
+  color: aqua;
+}
+.main-title:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/*Component*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*Footer*/
+footer {
+  background-color: #343a40;
+  width: 100%;
+  min-height: 5vh;
 }
