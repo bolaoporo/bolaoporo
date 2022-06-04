@@ -49,6 +49,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
 /*Footer*/
 footer {
   background-color: #343a40;
